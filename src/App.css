@@ -38,7 +38,7 @@
 
 .text-area{
   width: 1300px;
-  height: 500px;
+  height: 430px;
   margin-left: 110px;
   margin-top: 5px;
   background-color: #C2A891;
@@ -50,7 +50,7 @@
 
 .text-icon{
   color: black;
-  float: top;
+  margin-bottom: 50px;
 }
 
 .button{
@@ -61,4 +61,5 @@
   color: #D9D9D9;
   font-size: 25px;
   font-style: italic;
+  margin-bottom: 50px;
 }
