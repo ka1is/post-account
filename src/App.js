@@ -4,22 +4,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <img src="icon-profile.png" class = "icon-account"/>
+        <a class="text-header">Account</a>
+        <image src="esc.png" class = "icon-esc"/>
+      </div>
+      <bottom>
+        <form>
+          <textArea class="text-area">เพิ่มเรื่องราวที่นี่</textArea>
+          <img src="pic.png" class = "icon-pic"/>
+          <a class="text-icon">รูปภาพ</a>
+          <img src="gps.png" class = "icon-gps"/>
+          <a class="text-icon">ตำแหน่ง</a>
+          <img src="hashtag.png" class = "icon-hashtag"/>
+          <a class="text-icon">Hashtag</a>
+          <input type="submit" value="Post" class="button"></input>
+        </form>
+      </bottom>
     </div>
-  );
+  ); 
 }
 
 export default App;
